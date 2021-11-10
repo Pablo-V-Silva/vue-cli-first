@@ -1,15 +1,12 @@
 <template>
-  <div class="hello">
-      <h1>{{ msg }}</h1>
-  </div>
+ <div>
+    <img class="jumbo" src="https://picsum.photos/1080/720" alt="">
+ </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'jumbo'
 }
 </script>
 

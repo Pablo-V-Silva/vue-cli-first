@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <Title msg="La mia prima app con Vue CLI!"/>
+
+    <jumbo/>
   </div>
 </template>
 
 <script>
 import Title from './components/HelloWorld.vue'
 
+import jumbo from './components/jumbo.vue'
+
 export default {
   name: 'App',
   components: {
-    Title
+    Title,
+    jumbo
   }
 }
 </script>
